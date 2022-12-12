@@ -1,11 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+*{
+  box-sizing: border-box;
+}
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    
 }
-
+html,
+body{
+  min-width:100vw;
+  min-height: 100vh;
+  background: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%), #FFFFFF;
+  position: relative;
+}
 a {
   color: inherit;
   text-decoration: none;

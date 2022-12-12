@@ -1,0 +1,49 @@
+.card {
+  width: 353px;
+  height: 335px;
+  border-radius: 20px;
+  border: 2px solid #fff;
+  background: #80c5f1;
+  box-sizing: border-box;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 150px;
+  p {
+    font-family: "Overpass";
+    font-style: normal;
+    margin: 0;
+  }
+  .date {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 17px;
+  }
+  .gradus {
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 127px;
+    margin-top: 16px;
+  }
+  .pogoda {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: -20px;
+  }
+  .veter,
+  .vlazhnost {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    justify-content: center;
+    grid-gap: 15px;
+    margin-top: 22px;
+  }
+  .line {
+    width: 1px;
+    height: 21px;
+    background: #fff;
+  }
+}

@@ -1,0 +1,29 @@
+.times{
+  display: flex;
+	margin-top: 333px;
+	margin-left: 80px;
+	grid-gap: 12px;
+	width: fit-content;
+	height: fit-content;
+	.time{
+		width: 110px;
+		height: 155px;
+		text-align: center;
+		border-radius: 20px;
+		border: 2px solid #fff;
+		background: #80c5f1;
+		box-sizing: border-box;
+		p{
+			font-family: 'Overpass';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 18px;
+			line-height: 23px;
+			color: #FFFFFF;
+		}
+		img{
+			width: 43px;
+			height: 43px;
+		}
+	}
+}
