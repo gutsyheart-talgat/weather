@@ -10,14 +10,14 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    
-}
-html,
-body{
-  min-width:100vw;
+    min-width:100vw;
   min-height: 100vh;
   background: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%), #FFFFFF;
   position: relative;
+}
+body{
+  
+  padding: 50px;
 }
 a {
   color: inherit;

@@ -4,7 +4,7 @@ export const fetchWeather = createAsyncThunk(
   async (_,{rejectWithValue})=>{
 
     try {
-      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=london&appid=a9f6d60fe4a59c1440099e9a6d10ef6d`)
+      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=bishkek&appid=a9f6d60fe4a59c1440099e9a6d10ef6d`)
     
       if(!response.ok){
         throw new Error('server error');

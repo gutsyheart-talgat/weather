@@ -1,6 +1,9 @@
 import style from "../../styles/days.module.scss";
 
 export default function Days() {
+  const resolve = fetch(`https://api.openweathermap.org/data/2.5/forecast?q=bishkek&appid=a9f6d60fe4a59c1440099e9a6d10ef6d`);
+  const response =  resolve.then(response=>response.json())
+  const datas = response.then(data=>console.log(data,'data'));
   const days = [
     {
       id: 1,
